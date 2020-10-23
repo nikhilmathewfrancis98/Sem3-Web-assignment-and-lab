@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+body {
+ background-image: url("https://i.ibb.co/VJGvcvp/b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+   position: absolute;
+   top: 50%;
+   left: 35%;
+   width: 500px;
+   height: 500px;
+   margin-top: -250px;
+   margin-left: -250px; 
+}
+
+</style>
+
+</head>
+<body onload="rend()">
+<img id="first" src="https://i.ibb.co/ynFXYcV/a.png" class="center" style="display:none"/>
+
+<img id="second" src="https://i.ibb.co/YkzndbM/c.png" class="center"  style="display:none"/>
+<img id="third" src="https://i.ibb.co/k0wj3PQ/d.png" class="center"  style="display:none"/>
+<img id="fourth" src="https://i.ibb.co/PDgvBSP/e.png" class="center"  style="display:none"/>
+<img id="fifth" src="https://i.ibb.co/rHFVsDy/f.png" class="center"  style="display:none"/>
+<script>
+var myVar;
+function rend()
+{
+setInterval(test, 7900);
+
+}
+
+function test(){
+setTimeout(function(){document.getElementById('first').style.display ='block';},1);
+
+setTimeout(function(){document.getElementById('first').style.display ='none';},1900);
+
+setTimeout(function(){document.getElementById('second').style.display ='block';},2000);
+
+setTimeout(function(){document.getElementById('second').style.display ='none';},3900);
+
+setTimeout(function(){document.getElementById('third').style.display ='block';},4000);
+
+setTimeout(function(){document.getElementById('third').style.display ='none';},5900);
+
+setTimeout(function(){document.getElementById('fourth').style.display ='block';},6000);
+
+setTimeout(function(){document.getElementById('fourth').style.display ='none';},7900);
+
+setTimeout(function(){document.getElementById('fifth').style.display ='block';},6000);
+
+setTimeout(function(){document.getElementById('fifth').style.display ='none';},7900);
+
+
+}
+</script>
+</body>
+</html>

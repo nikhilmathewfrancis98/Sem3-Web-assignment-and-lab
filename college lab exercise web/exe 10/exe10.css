@@ -1,0 +1,37 @@
+		
+		.head1{
+			background-color: #D2691E;
+			height: 100px;
+			border: 2px solid #556B2F;
+		}
+		#marq{
+			font-style: italic;
+			font-weight: 100;
+			font-size: 3.1vw;
+			margin-top: 20px;
+		}
+
+		body{
+			background-color: #556B2F;
+			margin: 0px;
+		}
+		#img1{
+			width: 100%;
+			height: 250px;
+			margin-top: 20px;
+			border: 2px solid #556B2F;
+		}
+		.inner{
+			height: 300px;
+			width: 20%;
+			background-color: #D2691E;
+			position: relative;
+			bottom: 5px;
+			left: 0px;
+		}
+		.inner{
+			padding: 5px;
+		}
+		#marq1{
+			font-family: sans-serif;
+		}

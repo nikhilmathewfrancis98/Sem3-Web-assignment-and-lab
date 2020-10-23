@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>my first JavaScript page</title>
+
+</head>
+<body>
+    <div style="background-color: lightgreen;">
+<marquee onmouseover="this.stop()" onmouseout ="this.start()" behavior = "alternate"><h1 style="color: maroon;">WELCOME TO THE WORLD OF JAVASCRIPT</h1></marquee>
+
+<form align ="center">
+   
+<label for="text1">Enter a number</label>
+<input type="text" id="text1"  name="text">
+<input type="button" name="fact" id ="fact1" onclick ="prime()" value="Find Prime ">
+</form>
+
+<script type="text/javascript">
+        
+
+         function prime(){
+    
+
+
+     var n =  document.getElementById("text1").value;
+var flag = 0;
+ for ( var i = 2; i <= n / 2; ++i) {
+
+        // condition for non-prime
+        if (n % i == 0) {
+            flag = 1;
+            break;
+        }
+    }
+
+    if (n == 1) {
+        alert("1 is neither prime nor composite");
+    }
+    else {
+        if (flag == 0){
+            alert( +n+ " is a prime number ");
+        }
+        else{
+           alert(+n+ " is  not a prime number ");
+        }
+    }
+
+     
+}
+
+
+
+    </script>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

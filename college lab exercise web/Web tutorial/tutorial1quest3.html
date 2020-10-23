@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+</head>
+<body>
+	<div style="margin-left: 500px; margin-top: 50px; width: 500px; ">
+		<form action="/action_page.php" method="post" id="form1">
+
+<label for="myfile" style="padding-right: 15px;">Article link</label>
+<input type="file" id="myfile" name="myfile" value="Choose file"/><br><br>
+
+
+
+	<label for="fname" style="padding-right: 5px;">Article name</label>
+   <input type="text" id="fname" name="fname"/><br><br>
+
+
+
+   <label for="fname" style="padding-right: 5px;">Author name</label>
+   <input type="text" id="fname" name="fname"/><br><br>
+
+
+
+
+        <label for="technical" style="padding-right: 50px;">Type</label>
+    <input type="radio" id="technical" name="type" value="Technical">Technical</input>
+  <input type="radio" id="literary" name="type" value="Literary">Literary</input>
+  <input type="radio" id="general" name="type" value="General">General</input><br><br>
+
+<label for="topic" style="padding-right: 5px;">Subject topic</label>
+   <select id="topic" name="ages">
+        <option value="select">Select</option>
+        <option value="drama">DRAMA</option>
+        <option value="comic">COMIC</option>
+        <option value="history">HISTORY</option>
+        <option value="currentaffr">CURRENT AFFIRS</option>
+        </select><br><br>
+        <button type="submit" form="form1" value="Reset" style="text-align: left;">Reset</button>
+    <button type="submit" form="form1" value="Submit" style="text-align: right;">Submit</button>
+  
+  
+  </form>
+</div>
+</body>
+</html>

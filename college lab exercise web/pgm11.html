@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+         body,html{
+            background: url("flower.png") no-repeat center center fixed;
+            background-size: cover;
+             }
+            img{
+                width: 25%;
+                height: 25%;
+            }
+                           .bground{
+                            min-height: 100vh;
+                               display: flex;
+                               justify-content: center;
+                               align-items: center;
+                           }
+     </style>
+     <script>
+        var k=1; 
+        var i=1
+        function display(){
+            setTimeout(function img1(){document.getElementsById("img1").innerhtml="but1.jpg"},500);
+            setTimeout(function img2(){document.getElementsById("img1").innerhtml="but2.jpg"},500);
+            setTimeout(function img3(){document.getElementsById("img1").innerhtml="but3.jpg"},500);
+         
+        }
+             
+          
+     </script>
+ </head>
+ <body onload="setInterval(display,1500)">
+     <div class="bground">        
+     <img  alt="No image" id="image">
+    </div>
+ </body>
+ </html>

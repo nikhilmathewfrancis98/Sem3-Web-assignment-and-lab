@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>image printing</title>
+	<style type="text/css">
+		img{
+                width: 12%;
+                height: 12%;
+                position: relative;
+                top: 0px;
+                left: 400px;
+            }
+            #back{
+            	background-image: url("flower.png") ;
+              background-repeat: no-repeat;
+          }
+</style>
+<script type="text/javascript">
+	var i;
+
+	function display(){
+for (i = 1; i <= 3; i++) {
+	
+	setTimeout(function(){document.getElementById("img1").src="but1.jpg"},500);
+	setTimeout(function(){document.getElementById("img1").src="but2.jpg"},1500);
+	setTimeout(function(){document.getElementById("img1").src="but3.jpg"},3000);
+
+	
+}
+setTimeout(display,3500);
+
+
+}
+</script>
+</head>
+<body onload="display()" id="back">
+	<div>
+	<img  id="img1" alt="image">
+</div>
+
+</body>
+</html>

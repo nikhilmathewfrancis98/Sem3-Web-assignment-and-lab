@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+  }   
+body {
+        font-size: 30px;
+        margin: 0px;
+     }       
+#header{
+	      background-color:hsl(323, 57%, 70%);
+	      padding:0px;
+	      margin: 0px;
+       }     
+h1 {
+      font-size:70px;
+      text-align:center;
+      font-family:serif;
+      color:rgba(255, 255, 255, 0.993);
+   }
+h2 {
+      font-size:40px;
+      text-align:left;
+      margin:20px;
+      color:red;
+      font-style:italic;
+   }
+p::first-letter {
+                   font-size:1.5em;
+                }   
+b  {
+      font-size:30px;
+   } 
+p  {
+      margin: 25px;
+   } 
+ul {
+      margin: 30px;
+}   
+ul.likes {
+	       font-style:italic;
+	       font-weight: bold;
+         }       
+ul.subject li:nth-child(2){
+	                         font-weight:bold;
+	                         color:rgb(44, 15, 2);
+                          }
+#myself {
+            background-color:#127fdf;
+        }
+#subjects{
+	        background-color:hsl(64, 83%, 55%);
+         }
+#myfavourites{
+	         background-color:#dd8109;
+           }       
+#myfriends{
+           background-color:#e91823;
+        }       
+#div1{
+	   
+	   padding:10px 10px 90px 70px; 
+     }
+#div2{
+	   
+	   padding:10px 70px 50px 10px; 
+     }
+#div3{  
+	   
+	   padding: 50px 10px 10px 70px; 
+     }
+#div4{
+       
+	   padding:20px 70px 50px 10px; 
+     }     
+#div5{ 
+	   
+	   padding: 50px 10px 10px 70px; 
+     }   
+#div6{
+	   
+	   padding:60px 70px 10px 10px; 
+     }  
+#div7{
+	   
+	   padding: 50px 10px 10px 70px; 
+     } 
+#div8{
+       
+	   padding:60px 70px 10px 10px;  
+	   font-size:20px; 
+	   width:700px;  
+     }                 
+ol > li {
+          font-weight:bold;
+        }
+ul.books , ul.movies {
+	                   font-size : 25px;
+                     }
+a{
+    text-decoration: none;       
+ }
+a:link{
+         color:#e22161;
+      }    
+a:visited{
+           color:rgba(64, 25, 240, 0.877);
+         }                  
+a:hover{
+          text-decoration:underline;
+          color:rgba(66, 134, 10, 0.836);
+       }
+img.sree{
+           float: right;
+        }        
+                     

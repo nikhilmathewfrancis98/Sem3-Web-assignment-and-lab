@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>iframe introduction</title>
+</head>
+<body>
+	<marquee behavior="alternate" onmouseover="this.stop()" onmouseout="this.start()" direction="right to left" style="color: red; margin-top: 50px;">IFRAME - TARGET FOR A LINK</marquee>
+	<frameset>
+		<frame>
+
+			<p style="margin-left: 250px;">
+				<a href="https://www.cet.ac.in/" target="iframe"> College Of Engineering Trivandrum </a>
+				<span>
+				 <a href="https://ca.cet.ac.in/" target="iframe" style="font-family: fantasy;">Computer Application Dept</a>
+				</span>
+			</p>
+
+		</frame>
+	<iframe src="https://www.cet.ac.in/" width="900px" height="400px" name="iframe" style="margin-left: 250px;"></iframe>
+</frameset>
+</body>
+</html>

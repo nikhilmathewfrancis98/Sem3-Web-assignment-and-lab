@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Palindrome Checking</title>
+</head>
+<body>
+	<h3 align="center" style="margin-bottom: 15px; color: maroon; margin-top: 15px;">Palindrome or not ?</h3>
+	
+	<form align ="center">
+ <input type="button" name="pali" id ="fact1" onclick ="numb()" value="Check number">
+<input type="button" name="pali" id ="fact2" onclick ="string()" value="Check string"> 
+
+</form>
+ 
+<script type="text/javascript">
+        
+        function numb(){
+        var n ;
+        var rev = 0 ;
+        let rem ;
+        let temp;
+    n = parseInt(window.prompt("Enter an integer"));
+      temp = n ;
+
+    // reversed integer is stored in reversedN
+    while (n != 0) {
+        rem = n % 10;
+         rev = rev * 10 + rem;
+        n = parseInt (n / 10);
+    }
+
+    // palindrome if orignalN and reversedN are equal
+    if (temp == rev){
+        alert("The number " +temp+ " is palindrome");
+    }
+    else{
+
+        alert("The number " +temp+ " is not palindrome");
+     }     
+      }
+
+
+  function string()
+ {
+             var b=window.prompt("Enter a string");
+             var a=b.toLowerCase();
+         var i=0;
+         var j=a.length-1;
+         var flag=1;
+
+
+       while(i<=j)
+         { 
+                if(a[i]==" ")
+                { i++;
+                           }
+                  else if(a[j]==" ")
+                   {
+                              j--;
+                              }
+                              else{
+                        
+           if(a[i]==a[j])
+           {
+             i++;
+             j--;
+           }
+           else
+             {
+    window.alert(b + " is Not palindrome");
+     flag=0;
+       break;
+             }
+             }
+             }
+           
+           if(flag==1){
+          window.alert(b+" is Palindrome");}
+      }
+
+
+
+
+
+</script>
+
+
+</body>
+</html>

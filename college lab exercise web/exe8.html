@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+</head>
+<body>
+	<h3 align="center" style="margin-bottom: 15px; color: maroon;">Calculator</h3>
+	
+	<form align ="center">
+ <input type="button" name="fact" id ="fact1" onclick ="add()" value="Addition">
+<input type="button" name="fact" id ="fact1" onclick ="sub()" value="Subtract">
+<input type="button" name="fact" id ="fact1" onclick ="mul()" value="Multiplication">
+<input type="button" name="fact" id ="fact1" onclick ="div()" value="Division">
+</form>
+ 
+<script type="text/javascript">
+        function add(){
+      var a=parseInt(window.prompt("Enter the 1st number"));
+      var b = parseInt(window.prompt("Enter the 2nd number"));
+      var c = a+b;
+      alert("Sum is " + c);
+     
+      }
+
+               function sub(){
+      var a=parseInt( window.prompt("Enter the 1st number"));
+      var b = parseInt(window.prompt("Enter the 2nd number"));
+      var c = a-b;
+      alert("Difference is " + c);
+      }
+               function mul(){
+      var a=parseInt( window.prompt("Enter the 1st number"));
+      var b = parseInt(window.prompt("Enter the 2nd number"));
+      var c = a*b;
+      alert("product is " + c);
+      }
+               function div(){
+      var a=parseInt( window.prompt("Enter the 1st number"));
+      var b = parseInt(window.prompt("Enter the 2nd number"));
+      var c = a/b;
+      alert("Quotient is " + c);
+      }
+    </script>
+
+
+</body>
+</html>

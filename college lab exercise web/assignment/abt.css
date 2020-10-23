@@ -1,0 +1,173 @@
+*{
+	 font-size: 1.3vw;
+	
+}
+body{
+	background-color: yellow;
+	font-weight: 100;
+}
+#table th{
+	text-align: center;
+}
+
+.shell{
+	padding: 100px;
+}
+
+
+
+.div2{
+	box-shadow:1px 1px 2px black,0 0 5px darkblue;
+	padding-top: 5px;
+}
+#section1{
+	padding: 10px;
+}
+.div1{
+	background-color: lightgreen;
+	box-shadow: 0px 10px 30px grey;
+	padding: 4%;
+    width: 70%;
+    margin: 0px auto 0px;
+    box-sizing: border-box;
+    
+}
+	
+
+.div2>p{
+	font-size: medium;
+	font-family: 'Times New Roman', Times, serif, 'Arial Narrow';
+}
+#h3{
+
+	padding-top: 10px;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	font-family: "Times New Roman", Times, serif;
+
+}
+.div3{
+	box-sizing: border-box;
+	margin-top: 10px;
+
+	box-shadow:0px 3px 10px  0px grey,0 0 5px darkblue; 
+	padding-bottom: 15px;
+}
+.div3sub>h3{
+	font-family: cursive;
+	font-weight: 100;
+	text-align: center;
+	text-shadow: 2px 2px green;
+	padding-right: 150px;
+}
+.div3sub{
+	padding-top: 10px;
+	margin: 0px auto 10px 160px;
+}
+#table{
+	text-align: center;
+	width: 100%;
+    border:none;
+margin-bottom: 10px auto 10px auto;
+
+
+
+}
+th{
+	color: red;
+	font-style: oblique;
+}
+.div4{
+
+	box-shadow:0px 3px 10px  0px grey,0 0 5px darkblue; 
+}
+.div4>h3{
+	text-shadow: 2px 2px green;
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.div5{
+	margin-top: 20px;
+	box-shadow:0px 3px 10px  0px grey,0 0 5px darkblue;
+	border: 1px;
+	}
+	.div6{
+		
+		clear: both;
+		margin-top: 10px;
+		padding: 15px;
+		box-shadow:0px 3px 10px  0px green;
+	}
+	
+
+	.div6sub>h3{
+		text-align: center;
+		text-shadow: 2px 2px green;
+
+	}
+
+	#span1{
+		float: left;
+		margin-right: 70px;
+		position: relative;
+
+	}
+	#span2{
+		float: left;
+		position: relative;
+	}
+	#spn1{
+		font-style: italic;
+		color:black;
+		background-color: white;
+		opacity: 0.5;
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		width: 100%;
+		box-shadow: box-shadow:0px 3px 10px  0px grey,0 0 5px darkblue;
+		}
+		#spn2{
+		font-style: italic;
+		color:black;
+		background-color:white;
+		opacity: 0.5;
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		width: 100%;
+		 box-shadow:0px 3px 10px  0px grey,0 0 5px darkblue;	
+		}
+	.shell1{
+		margin-top: 10px;
+
+	}
+	#table a{
+		text-decoration:none; 
+		color: maroon;
+
+	}
+
+	 #table a:hover{
+		text-decoration: underline;
+		color: green; 
+	}
+#marq{
+	background-color: lightgreen;
+	margin-bottom: 25px;
+	width: 800px;
+	height: 50px;
+	margin-left: 170px;
+	color: maroon;
+	box-shadow: 0px 3px 10px  0px grey,0 0 5px darkblue;
+	font-size: 2em;
+
+}
+.div6sub>p::first-letter {font-size: 1.5em;
+   
+  }
+.div6sub{
+    text-indent: 70px;
+}
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Application</title>
+	<style type="text/css">
+
+	table,td,th{
+  border: 1px solid black;
+  
+}
+
+*{
+	vertical-align: none;
+
+}
+
+	</style>
+</head>
+<body>
+		<h2 style=" margin: 15px auto 50px auto; text-align: center;"> Application Form</h2>
+<table style="align-items: flex-start; width: 650px; margin: 5px 30px 0px 350px;">
+	<form action="/action_page.php" method="post" id="form1">
+	<tr>
+    <th colspan="2">Basic Details</th>
+ </tr>
+  <tr>
+  	 <td><label for="fname">Name</label>
+  </td>
+    <td  style="align-content: flex-start";><input type="text" id="fname" name="fname"></td>
+  </tr>
+  <tr>
+  	 <td><label for="male">Gender</label></td>
+    <td><input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label></td>
+  </tr>
+  <tr>
+  	 <td><label for="age">Age</label></td>
+    <td><select id="age" name="ages">
+        <option value="select">Select</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        </select>
+</td>
+  </tr>
+  <tr>
+  	 <td><label for="fname">Address</label></td>
+    <td><textarea id="address" name="address" placeholder="Address"></textarea></td>
+  </tr>
+
+<!--Education Qualification-->
+
+    <tr>
+  	 <th colspan="2">Education Qualification</th>
+   </tr>
+  <tr>
+  	 <td><label for="fyear">Year</label></td>
+    <td><input type="text" id="fyear" name="fyear"></td>
+   </tr>
+   <tr>
+  	 <td><label for="university">University</label></td>
+    <td><select id="university" name="university">
+        <option value="kerala">KERALA</option>
+        <option value="KTU">KTU</option>
+        </select></td>
+   </tr>
+
+   <tr>
+  	 <td><label for="college">College</label></td>
+    <td><textarea id="college" name="college" placeholder="College"></textarea></td>
+   </tr>
+   <tr>
+  	 <td><label for="perc">Percentage</label></td>
+    <td><input type="text" id="perc" name="perc"></td>
+   </tr>
+<tr>
+   	<td colspan="2"><input type="checkbox" id="myCheck"> <span>I hereby declare that all the information contained in this resume is in accordance with facts or truths to my knowledge.</span></td>
+</tr>
+
+    <tr>
+  	 <td><button type="submit" form="form1" value="Reset">Reset</button></td>
+    <td><button type="submit" form="form1" value="Submit">Submit</button></td>
+   </tr>
+
+  </form>
+</table>
+
+   
+
+</body>
+</html>
